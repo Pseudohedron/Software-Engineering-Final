@@ -16,35 +16,33 @@ After successfully logging in, the user is taken to the form creation page. From
 
 ## Steps for Testing
 
-1. Unpack zipped files.
+1. Download and install [MAMP](https://www.mamp.info/en/downloads/)
 
-2. Move the current_final folder (containing the assets and style folders 
-as well as various php and html files) to your MAMP directory to the htdocs folder:
-MAMP\htdocs\current_final
+2. Download and unpack project files.
+
+2. Move the "current_final folder" (containing the assets and style folders as well as various php and html files) to your MAMP directory to the htdocs folder: MAMP\htdocs\current_final
 
 3. Run the MAMP webserver.
 
 4. Open a web browser and enter "localhost/current_final" into the address bar.
 
-5. Login using the username "adam.alvarez" and password "password". Feel free to experiment with incorrect fields.
+5. Login using the test credentials "adam.alvarez" and "password". Feel free to experiment with incorrect fields.
 
-6. Now on the main form, click the pink expansive dropdowns to expand related categories. Fill out
-all categories as you wish, however four specific fields must be filled as they are primary keys!
+6. Now on the main form, click the pink expansive dropdowns to expand related categories. Fill out all categories as you wish, however four specific fields must be filled as they are primary keys in the database.
 
 7. If done correctly, messages will appear where SOAP form fields are saved correctly. This is the end of the working program functions.
 
-DO NOT LEAVE ANY OF THE FOLLOWING FIELDS EMPTY:
------------------------------------------------
-Employee ID - Under Subjective Section, required to be a numeric value.
-PatientID - Under Plan Section, set to a numeric value. There are two instances of this field, the first one (under Medications header) must be filled.
-SOAPID - Under Plan Section, set to a numeric value.
-Vitals Date, Time - Under Plan Section, select any date and time using the interface.
+### Fields not to be left empty:
+- **Employee ID** - Under Subjective Section, required to be a numeric value.
+- **PatientID** - Under Plan Section, set to a numeric value. There are two instances of this field, the first one (under Medications header) must be filled.
+- **SOAPID** - Under Plan Section, set to a numeric value.
+- **Vitals Date, Time** - Under Plan Section, select any date and time using the interface.
 
-If any fields that are required are left empty, the program will simply reload the SOAP form page.
+If any fields that are required are left empty, the program will simply reload the SOAP form page instead of submitting the form to the database.
 
 ### Contributors
-Cary Courson - Team Lead
-Charisse Giles - Design Lead
-Jason Booth (@Pseudohedron) - Development Lead
-Wyatt Perry - Team Member
-Luis Amador - Team Member
+- **Cary Courson** - Team Lead
+- **Charisse Giles** - Design Lead
+- **Jason Booth** @Pseudohedron - Development Lead
+- **Wyatt Perry** - Team Member
+- **Luis Amador** - Team Member
