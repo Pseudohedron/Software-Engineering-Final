@@ -1,0 +1,160 @@
+/* merged */
+.collapsible {
+    background-color: #FFC0CB;
+    color: #0000007c;
+    /*text-shadow: 2px 2px 4px #000000;*/
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 17px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #c0ebff;
+  }
+  
+  .collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f5f5dc;
+  }
+
+
+
+
+
+
+
+  input[type=submit] {
+    display: block;
+    font-size: 18pt;
+    margin-left: auto;
+    margin-right: auto;
+    padding:5px 15px; 
+    background:#FFC0CB; 
+    color: white;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    width: 18%;
+  }
+
+  .phpsubmit {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding:5px 15px; 
+    background:#FFC0CB; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+  }
+
+
+
+
+
+
+
+
+
+
+  input[type=checkbox] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40px;
+    height: 40px;
+  }
+
+  input[type=text] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14pt;
+  }
+
+  input[type=password] {
+    display: block;
+    color:#FFC0CB;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  input[type=number] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  input[type=datetime-local] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  input[type=date] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .title {
+    text-align: center;
+    color:#FFC0CB;
+    font-size: 26pt; 
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Great Vibes', cursive;
+  }
+
+  .subtitle {
+    color:#FFC0CB;
+    font-size: 19pt;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Great Vibes', cursive;
+  }
+
+  body {
+    color: #1375be;
+    font-size: 15pt;
+    /*#967bb6*/
+  }
+
+  .red {
+    color: red;
+    font-size: 20pt;
+  }
+
+  .error{
+    color: red; 
+    font-size: 16pt
+  }
+
+
+

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="/current_final/style/accordianstyles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body style="background-color:#e6ebff;">
+  <form action="save_form.php" method="post">
+  <img src="/current_final/assets/logo.png" alt="Logo" class="center">
+<h2 class="title">SOAP Note Form</h2>
+
+<p> </p>
+<button type="button" class="collapsible">Subjective Section</button>
+<div class="content">
+  <p class="ptag"><h2 class="title">Subjective</h2>
+  Employee ID: <input type="text" name="EmpID">
+  Symptoms: <input type="text" name="symptoms">
+  <br><br>
+  Stresses: <input type="text" name="stresses">
+  <br><br>
+  <input type="checkbox" id="agitated" name="agitated" value="TRUE">
+  <input type="hidden" id="agitated_default" name="agitated" value="FALSE">
+  <label for="agitated"> Agitated</label>
+  <input type="checkbox" id="sleeplog" name="sleeplog" value="TRUE">
+  <input type="hidden" id="sleeplog_default" name="sleeplog" value="FALSE">
+  <label for="sleeplog"> Sleeplog</label>
+  <input type="checkbox" id="cooperative" name="cooperative" value="TRUE">
+  <input type="hidden" id="cooperative_default" name="cooperative" value="FALSE">
+  <label for="cooperative"> Cooperative</label>
+  <br><br>
+  Behavior: <input type="text" name="behavior">
+  <br><br>
+  Other Treatments: <input type="text" name="othertx">
+  <br><br>
+  <br><br>
+  <br><br></p>
+</div>
+
+<p> </p>
+<button type="button" class="collapsible">Objective Section</button>
+<div class="content">
+  <p><h2 class="title">Objective</h2>
+    <h3 class=subtitle>Appearance:</h3>
+  Gait: <input type="text" name="gait">
+  Posture: <input type="text" name="posture">
+  Clothing: <input type="text" name="clothing">
+  Grooming: <input type="text" name="grooming">
+  <br><br>
+  <h3 class=subtitle>General:</h3>
+  Mannerisms: <input type="text" name="mannerisms">
+  Gestures: <input type="text" name="gestures">
+  Psychomotor Activity: <input type="text" name="psychomotoractivity">
+  Expression: <input type="text" name="expression">
+  Eye Tracking: <input type="text" name="eyetracking">
+  Commands: <input type="text" name="commands">
+  Compulsions: <input type="text" name="compulsions">
+  <br><br>
+  <h3 class=subtitle>Attitude:</h3>
+  <input type="checkbox" id="hostile" name="hostile" value="TRUE">
+  <input type="hidden" id="hostile_default" name="hostile" value="FALSE">
+  <label for="hostile"> Hostile</label>
+  <input type="checkbox" id="open" name="open" value="TRUE">
+  <input type="hidden" id="open_default" name="open" value="FALSE">
+  <label for="open"> Open</label>
+  <input type="checkbox" id="secretive" name="secretive" value="TRUE">
+  <input type="hidden" id="secretive_default" name="secretive" value="FALSE">
+  <label for="secretive"> Secretive</label>
+  <input type="checkbox" id="evasive" name="evasive" value="TRUE">
+  <input type="hidden" id="evasive_default" name="evasive" value="FALSE">
+  <label for="evasive"> Evasive</label>
+  <input type="checkbox" id="cooperativeattitude" name="cooperativeattitude" value="TRUE">
+  <input type="hidden" id="cooperativeattitude_default" name="cooperativeattitude" value="FALSE">
+  <label for="cooperativeattitude"> Cooperative</label>
+  <input type="checkbox" id="defensive" name="defensive" value="TRUE">
+  <input type="hidden" id="defensive_default" name="defensive" value="FALSE">
+  <label for="defensive"> Defensive</label>
+  <input type="checkbox" id="apathetic" name="apathetic" value="TRUE">
+  <input type="hidden" id="apathetic_default" name="apathetic" value="FALSE">
+  <label for="apathetic"> Apathetic</label>
+  <input type="checkbox" id="distracted" name="distracted" value="TRUE">
+  <input type="hidden" id="distracted_default" name="distracted" value="FALSE">
+  <label for="distracted"> Distracted</label>
+  <input type="checkbox" id="focused" name="focused" value="TRUE">
+  <input type="hidden" id="focused_default" name="focused" value="FALSE">
+  <label for="focused"> Focused</label>
+  <br><br>
+  <h3 class=subtitle>Level of Consciousness</h3>
+  <input type="checkbox" id="alert" name="alert" value="TRUE">
+  <input type="hidden" id="alert_default" name="alert" value="FALSE">
+  <label for="alert"> Alert</label>
+  <input type="checkbox" id="drowsy" name="drowsy" value="TRUE">
+  <input type="hidden" id="drowsy_default" name="drowsy" value="FALSE">
+  <label for="drowsy"> Drowsy</label>
+  <input type="checkbox" id="stuporous" name="stuporous" value="TRUE">
+  <input type="hidden" id="stuporous_default" name="stuporous" value="FALSE">
+  <label for="stuporous"> Stuporous</label>
+  <input type="checkbox" id="comatose" name="comatose" value="TRUE">
+  <input type="hidden" id="comatose_default" name="comatose" value="FALSE">
+  <label for="comatose"> Comatose</label>
+  <input type="checkbox" id="confused" name="confused" value="TRUE">
+  <input type="hidden" id="confused_default" name="confused" value="FALSE">
+  <label for="confused"> Confused</label>
+  <input type="checkbox" id="vigilant" name="vigilant" value="TRUE">
+  <input type="hidden" id="vigilant_default" name="vigilant" value="FALSE">
+  <label for="vigilant"> Vigilant</label>
+  <input type="checkbox" id="lethargic" name="lethargic" value="TRUE">
+  <input type="hidden" id="lethargic_default" name="lethargic" value="FALSE">
+  <label for="lethargic"> Lethargic</label>
+  <input type="checkbox" id="fluctuating" name="fluctuating" value="TRUE">
+  <input type="hidden" id="fluctuating_default" name="fluctuating" value="FALSE">
+  <label for="fluctuating"> Fluctuating</label>
+  <br><br>
+  <br><br></p>
+</div>
+
+<p> </p>
+<button type="button" class="collapsible">Assessment Section</button>
+<div class="content">
+  <p><h2 class="title">Assessment</h2>
+  Diagnosis: <input type="text" name="diagnosis">
+  <br><br>
+  DSM-IV Axis I combo: <input type="text" name="dsm4a1c">
+  <br><br>
+  DSM-IV Axis II combo: <input type="text" name="dsm4a2c">
+  <br><br>
+  DSM-IV Axis III combo: <input type="text" name="dsm4a3c">
+  <br><br>
+  <br><br>
+  <br><br></p>
+</div>
+
+<p> </p>
+<button type="button" class="collapsible">Plan Section</button>
+<div class="content">
+  <p><h2 class="title">Plan</h2>
+  Treatment Plan: <input type="text" name="txplan">
+  <br><br>
+  <h3 class=subtitle>Medications</h3>
+  <label for="patientid">PatientID:</label>
+  <input type="number" id="patientid" name="patientid" min="0" max="99999">
+  <label for="meddate">Medication Date:</label>
+  <input type="date" id="meddate" name="meddate">
+  Medication Name: <input type="text" name="medname">
+  Medication Dose: <input type="text" name="meddose">
+  Medication Frequency: <input type="text" name="medfreq">
+  <br><br>
+  <label for="isactive"> Is Active</label>
+  <input type="checkbox" id="isactive" name="isactive" value="TRUE">
+  <input type="hidden" id="isactive_default" name="isactive" value="FALSE">
+  <h3 class=subtitle>Vitals</h3>
+  <label for="patientid1">PatientID:</label>
+  <input type="number" id="patientid1" name="patientid1" min="0" max="99999">
+  <label for="soapid">SOAPID:</label>
+  <input type="number" id="soapid" name="soapid" min="0" max="99999">
+  <label for="vitaldt">Vitals Date, Time:</label>
+  <input type="datetime-local" id="vitaldt" name="vitaldt">
+  <label for="hr">Heart Rate:</label>
+  <input type="number" id="hr" name="hr" min="0" max="99999">
+  <label for="resp">Respirations:</label>
+  <input type="number" id="resp" name="resp" min="0" max="99999">
+  Blood Pressure: <input type="text" name="bp">
+  Temperature: <input type="text" name="temp">
+  <label for="spo2">SPO2:</label>
+  <input type="number" id="spo2" name="spo2" min="0" max="99999">
+  <br><br>
+  <br><br>
+  <br><br></p>
+</div>
+
+
+
+
+<h4> </h4>
+  <input type="submit" name="submit" value="Submit">
+  
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+</form>
+</body>
+</html>
