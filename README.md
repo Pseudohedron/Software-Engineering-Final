@@ -1,12 +1,5 @@
-# Software Engineering Final
-Final group project for Software Engineering at Texas A&M University - Central Texas.
-
-**Contributors**
-Cary Courson - Team Lead
-Charisse Giles - Design Lead
-Jason Booth (@Pseudohedron) - Development Lead
-Wyatt Perry - Team Member
-Luis Amador - Team Member
+# SOAP Note Documentaion System
+Final group project for Software Engineering at Texas A&M University - Central Texas. The front-end web page was created using HTML and CSS, and connects to a database using PHP and MAMP.
 
 **Goals:**
 - Create a digital documentation service to store SOAP notes for nurses and other medical professionals
@@ -14,7 +7,14 @@ Luis Amador - Team Member
 - Intended to operate from tablets provided to the users
 - Must have a user-friendly front-end that connects with a remote database to store sensitive information
 
-## Steps for testing it yourself:
+### Showcase
+At the login page, the user can enter their username and password. Includes checking between web page and database for correct user/pass combination. Text at the top of the page is intended for debugging purposes and would not be in the final product.
+![login-page](/assets//testing/login-page.png)
+
+After successfully logging in, the user is taken to the form creation page. From here, important information can be collected from the patient and inputted. Afterwards, the user submits the form and closes it.
+![main-form](/assets/testing/main-form.gif)
+
+## Steps for Testing
 
 1. Unpack zipped files.
 
@@ -41,3 +41,10 @@ SOAPID - Under Plan Section, set to a numeric value.
 Vitals Date, Time - Under Plan Section, select any date and time using the interface.
 
 If any fields that are required are left empty, the program will simply reload the SOAP form page.
+
+### Contributors
+Cary Courson - Team Lead
+Charisse Giles - Design Lead
+Jason Booth (@Pseudohedron) - Development Lead
+Wyatt Perry - Team Member
+Luis Amador - Team Member
